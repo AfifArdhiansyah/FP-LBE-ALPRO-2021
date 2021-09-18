@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Afif</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <div id="navbar" class="NavBar">
+      <p class="logo">Afif</p>
+      <div class="menu" id="nav-menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skill">Skill</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img src="img/menu.png" alt="menu-icon" style="width: 25px;"></a>
+      </div>
+    </div>
+    <!-- EndNavbar -->
+
+    <!-- Home -->
+    <div id="home">
+      <ul>
+        <img class="profile-pic" src="img/afif-home2.png" alt="foto_profil">
+        <div class="wellcome">
+          <p id="well1">Wellcome</p>
+          <p id="well2">The portofolio site about me</p>
+          <a href="file/CV_Muhammad Afif Dwi Ardhiansyah_ILITS2022.pdf" download=><div class="cv-button">Download My CV</div></a>
+        </div>
+        <div class="home-contact">
+          <a href="https://www.instagram.com/afifmuhammaddd_"><img class="home-logo" src="img/instagram.png" alt="instagram"></a>
+          <a href="https://www.linkedin.com/in/muhammad-afif-dwi-ardhiansyah-088b3b218/"><img class="home-logo" src="img/linkedin.png" alt="linkedin"></a>
+          <a href="https://github.com/AfifArdhiansyah"><img class="home-logo" src="img/github-sign.png" alt="github" ></a>
+        </div>
+      </ul>
+    </div>
+    <!-- EndHome -->
+
+    <!-- About -->
+    <div id="about">
+      <h2>About Me</h2>
+      <div class="about-container">
+        <div class="about-content">
+          <div class="describe"><p>Hi, My name is <span>Afif</span>. I am a student of Institut Teknologi Sepuluh Nopember, major <span>Informatics Engineering</span> banch 2020. 
+            From MBTI test, my peronality is <span>"Protagonist"</span>. Thats's why, i always try to make a positive vibe in my work group. <br>
+            I am <span>rookie</span> in website development. Start studied it on the middle of 2021. But i am passionate and excited to make proffesional websites.
+          </p></div>
+          <div class="foot-about">
+            <div class="desc-con">
+              <p class="title-desc">Web Experience</p>
+              <p class="big-num">2</p>
+              <p class="subtitle-desc">Months</p>
+            </div>
+            <div class="desc-con">
+              <p class="title-desc">Work</p>
+              <p class="big-num">6</p>
+              <p class="subtitle-desc">Hour/Day</p>
+            </div>
+            <div class="desc-con">
+              <p class="title-desc">TEFL</p>
+              <p class="big-num">477</p>
+              <p class="subtitle-desc">year 2021</p>
+            </div>
+          </div>
+        </div>
+        <div class="img-about"><img src="img/afif-about3.png" alt="afif about"></div>
+      </div>
+    </div>
+    <!-- EndAbout -->
+
+    <!-- Skill -->
+    <div id="skill">
+      <h2>My Skill</h2>
+      <div class="tab-skill" id="tab-skill-id">
+        <a href="javascript:void(0);" class="icon" onclick="myFunctionSkill()">
+        <div class="tab-skill-resp">
+          <div id="prog-title" class="skill-title">Programming</div>
+          <div id="lang-title" class="skill-title">Language</div>
+          <div id="offi-title" class="skill-title">Office</div>
+          <img src="img/arrow-down-sign-to-navigate.png" alt="menu-icon" style="width: 25px;">
+        </div>
+        </a>
+        <button class="button-skill" onclick="openPageSkill('programming', 'prog-title')" id="defaultOpenSkill">Programming</button>
+        <button class="button-skill" onclick="openPageSkill('language', 'lang-title')">Language</button>
+        <button class="button-skill" onclick="openPageSkill('office', 'offi-title')">Office</button>
+      </div>
+
+  <!-- Programming -->
+    <div id="programming" class="skill-content">
+      <!-- <h3>Programming Skills</h3> -->
+      <p>C++</p>
+      <div class="container">
+        <div class="skills cpp">50%</div>
+      </div>
+      <p>HTML</p>
+      <div class="container">
+        <div class="skills html">40%</div>
+      </div>
+      <p>CSS</p>
+      <div class="container">
+        <div class="skills css">40%</div>
+      </div>
+      <p>JavaScript</p>
+      <div class="container">
+        <div class="skills js">5%</div>
+      </div>
+      <p>Kotlin</p>
+      <div class="container">
+        <div class="skills kotlin">10%</div>
+      </div>
+    </div>
+    <!-- EndProgramming -->
+    <!-- Language -->
+    <div id="language" class="skill-content">
+      <!-- <h3>Human Language</h3> -->
+      <p>English</p>
+      <div class="container">
+        <div class="skills english">70%</div>
+      </div>
+      <p>Indonesian</p>
+      <div class="container">
+        <div class="skills indonesian">100%</div>
+      </div>
+      <p>Jowoan</p>
+      <div class="container">
+        <div class="skills jowoan">100%</div>
+      </div>
+    </div>
+    <!-- EndLanguage -->
+    <!-- Office -->
+    <div id="office" class="skill-content">
+      <!-- <h3>Office Skill</h3> -->
+      <p>Microsoft Word</p>
+      <div class="container">
+        <div class="skills msword">90%</div>
+      </div>
+      <p>Power Point</p>
+      <div class="container">
+        <div class="skills ppt">90%</div>
+      </div>
+      <p>Excel</p>
+      <div class="container">
+        <div class="skills excel">70%</div>
+      </div>
+    </div>
+    <!-- EndOffice -->
+
+    </div>
+    <!-- EndSkill -->
+
+    <!-- Experience -->
+    <div id="journey">
+      <h2>My Journey</h2>
+      <div class="tab-exp">
+        <button class="button-exp" onclick="openPageExp('education', this)" id="defaultOpenExp">Education</button>
+        <button class="button-exp" onclick="openPageExp('experience', this)">Experience</button>
+      </div>
+    <!-- Education -->
+    <div id="education" class="exp-content">
+      <div class="tl-left">
+        <div class="exp-container">
+          <div class="tl-content-l">
+            <p class="exp-p">SMAN 1 Gresik</p>
+            <p class="exp-m">MIPA</p>
+            <p class="exp-t">2017-2020</p>
+          </div>
+          <div class="dot"></div>
+          <div class="empty"></div>
+        </div>
+        <div class="exp-container">
+          <div class="tl-content-l">
+            <p class="exp-p">Institut Teknologi Sepuluh Nopember</p>
+            <p class="exp-m">Informatics</p>
+            <p class="exp-t">2020-now</p>
+          </div>
+          <div class="dot"></div>
+          <div class="empty"></div>
+        </div>
+        
+      </div>
+    </div>
+    <!-- End Education -->
+    <!-- Committee -->
+    <div id="experience" class="exp-content">
+      <div class="tl-right">
+        <div class="exp-container">
+          <div class="empty"></div>
+          <div class="dot"></div>
+          <div class="tl-content">
+            <p class="exp-p">Karya Ilmiah Remaja</p>
+            <p class="exp-m">Staff</p>
+            <p class="exp-t">2017-2019</p>
+          </div>
+        </div>
+        <div class="exp-container">
+          <div class="empty"></div>
+          <div class="dot"></div>
+          <div class="tl-content">
+            <p class="exp-p">Aprentice Vi-Rose Team</p>
+            <p class="exp-m">Participant</p>
+            <p class="exp-t">2021</p>
+          </div>
+        </div>
+        <div class="exp-container">
+          <div class="empty"></div>
+          <div class="dot"></div>
+          <div class="tl-content">
+            <p class="exp-p">Schematics 2021</p>
+            <p class="exp-m">Staff</p>
+            <p class="exp-t">2021-now</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Committee -->
+    </div>
+     <!-- End Experience -->
+     <!-- Contact -->
+     <div id="contact">
+       <h2>Contact Me</h2>
+       <div class="con">
+        <form class="form" name="submit-to-google-sheet">
+          <!-- hasil submit = https://docs.google.com/spreadsheets/d/1KPQJtoORzJQbv7J6eLDT4CnYo4dkk2KfG6shNCB3ZiQ/edit#gid=0 -->
+          <label for="fname">Your Name</label>
+          <input type="text" id="fname" name="Name" placeholder="Your name..">
+      
+          <label for="email">Email</label>
+          <input type="email" id="email" name="Email" placeholder="Your email..">
+  
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="Subject" placeholder="Subject..">
+      
+          <label for="textarea">Text</label>
+          <textarea id="textarea" name="Text" placeholder="Write something.." style="height:50px"></textarea>
+      
+          <button type="submit">Submit</button>
+         </form>
+         <div class="mycontact">
+           <div class="con-content">
+             <img src="img/whatsapp.png" alt="logo wa">
+             <div class="wrap-con">
+              <p class="con-title">Whatsapp Number</p>
+              <p class="con-child">082244872826</p>
+             </div>
+           </div>
+           <div class="con-content">
+            <img src="img/gmail.png" alt="logo gmail">
+            <div class="wrap-con">
+              <p class="con-title">Email</p>
+              <p class="con-child">afifardhiansyah@gmail.com</p>
+            </div>
+         </div>
+         <div class="con-content">
+          <img src="img/pin.png" alt="logo location">
+          <div class="wrap-con">
+            <p class="con-title">Location</p>
+            <p class="con-child">Gresik, East Java</p>
+          </div>
+       </div>
+         </div>
+       </div>
+     </div>
+     <!-- End Contact -->
+
+     <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwEeA61K12Uq41jitsiY3KmeOXQVhsNnB5YSc1bf4bufaqH7Tc8KG79VAUesYbUtSsgsQ/exec'
+      const form = document.forms['submit-to-google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Terkirim', response))
+          .catch(error => console.error('Gagal', error.message))
+      })
+    </script>
+  </body>
+  <footer>
+    <p>Made by Afif 2021</p>
+  </footer>
+</html>
