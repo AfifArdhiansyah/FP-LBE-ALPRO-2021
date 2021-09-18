@@ -238,8 +238,7 @@
       
           <label for="textarea">Text</label>
           <textarea id="textarea" name="Text" placeholder="Write something.." style="height:50px"></textarea>
-      
-          <button type="submit">Submit</button>
+          <button class="button-submit" onclick="myFunctionAlert()" type="submit">Submit</button>
          </form>
          <div class="mycontact">
            <div class="con-content">
@@ -262,9 +261,13 @@
             <p class="con-title">Location</p>
             <p class="con-child">Gresik, East Java</p>
           </div>
-       </div>
+        </div>
          </div>
        </div>
+       <div id="alert-form" class="alert">
+        <p>Terima kasih atas pesannya! Semoga sehat selalu..</p>
+        <button class="button-cross" onclick="closeAlert()"><img src="img/delete.png" alt="del-button"></button>
+      </div>
      </div>
      <!-- End Contact -->
 

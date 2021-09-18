@@ -45,3 +45,13 @@ function myFunctionSkill() {
     x.className = "tab-skill";
   }
 }
+
+function myFunctionAlert() {
+  var x = document.getElementById("alert-form");
+  x.className = "alert submit";
+}
+
+function closeAlert() {
+  var x = document.getElementById("alert-form");
+  x.className = "alert";
+}
