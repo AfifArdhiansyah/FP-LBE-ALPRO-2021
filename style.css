@@ -451,10 +451,14 @@ h2 {
   .tab-skill-resp {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 15px;
   }
-  .tab-skill-resp img {
+  .tab-skill-resp #down-icon {
     display: flex;
+  }
+  .tab-skill-resp #up-icon {
+    display: none;
   }
   .tab-skill-resp:hover {
     background-color: #ddd;
@@ -475,6 +479,12 @@ h2 {
     justify-content: flex-end;
     margin: 7px 0px 7px 0px;
     font-size: 1.1rem;
+  }
+  #tab-skill-id.responsive2 .tab-skill-resp #down-icon {
+    display: none;
+  }
+  #tab-skill-id.responsive2 .tab-skill-resp #up-icon {
+    display: flex;
   }
 }
 /* end skill */
