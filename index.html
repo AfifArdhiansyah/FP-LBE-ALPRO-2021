@@ -228,16 +228,16 @@
         <form class="form" name="submit-to-google-sheet">
           <!-- hasil submit = https://docs.google.com/spreadsheets/d/1KPQJtoORzJQbv7J6eLDT4CnYo4dkk2KfG6shNCB3ZiQ/edit#gid=0 -->
           <label for="fname">Your Name</label>
-          <input type="text" id="fname" name="Name" placeholder="Your name..">
+          <input type="text" id="fname" name="Name" placeholder="Your name.." required>
       
           <label for="email">Email</label>
-          <input type="email" id="email" name="Email" placeholder="Your email..">
+          <input type="email" id="email" name="Email" placeholder="Your email.." required>
   
           <label for="subject">Subject</label>
-          <input type="text" id="subject" name="Subject" placeholder="Subject..">
+          <input type="text" id="subject" name="Subject" placeholder="Subject.." required>
       
           <label for="textarea">Text</label>
-          <textarea id="textarea" name="Text" placeholder="Write something.." style="height:50px"></textarea>
+          <textarea id="textarea" name="Text" placeholder="Write something.." style="height:50px" required></textarea>
           <button class="button-submit" onclick="myFunctionAlert()" type="submit">Submit</button>
          </form>
          <div class="mycontact">

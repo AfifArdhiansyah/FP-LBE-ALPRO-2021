@@ -14,7 +14,6 @@ function openPageSkill(pageName, titleName) {
   document.getElementById(titleName).style.display = "block";
 }
 document.getElementById("defaultOpenSkill").click();
-document.getElementById("defaultOpenSkill").click();
 
 function openPageExp(pageName, elmnt) {
   var i, tabcontent, tablinks;
